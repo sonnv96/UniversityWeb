@@ -1,0 +1,25 @@
+﻿body {
+    background: #fefefe;
+    color: #414141;
+    font-size: 100%;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    :before, :after {
+        box-sizing: inherit;
+    }
+
+    .container-fluid
+        {
+        ::before
+            {
+            display:table;
+            content:none;
+        }
+        
+
+    }
+}
