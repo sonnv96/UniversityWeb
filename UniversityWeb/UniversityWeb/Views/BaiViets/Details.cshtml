@@ -1,0 +1,42 @@
+﻿@model UniversityWeb.Models.Data.BaiViet
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BaiViet</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tieuDe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tieuDe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.noiDung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noiDung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngayDang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngayDang)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.maBaiViet }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

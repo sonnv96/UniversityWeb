@@ -152,6 +152,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BaiVietsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -305,6 +306,11 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\HomeLayout\Home.cshtml" />
+    <Content Include="Views\BaiViets\Create.cshtml" />
+    <Content Include="Views\BaiViets\Delete.cshtml" />
+    <Content Include="Views\BaiViets\Details.cshtml" />
+    <Content Include="Views\BaiViets\Edit.cshtml" />
+    <Content Include="Views\BaiViets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
